@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Documentation</title>
+  <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+</head>
+
+<body>
+  <main class="container">
+    <h1>API Documentation</h1>
+    <hr />
+    <p>
+      <code>/products</code>
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr>
+            <th>Method</th>
+            <th>URL</th>
+            <th width="60%">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="badge badge-info">GET</span></td>
+            <td>/</td>
+            <td>List of products</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-info">GET</span></td>
+            <td>/products/{id}</td>
+            <td>Product data</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-success">POST</span></td>
+            <td>/</td>
+            <td>Create a new product</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-warning">PUT</span></td>
+            <td>/products/{id}</td>
+            <td>Update an existing product</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-danger">DELETE</span></td>
+            <td>/products/{id}</td>
+            <td>Remove a product</td>
+          </tr>
+        </tbody>
+      </table>
+    </p>
+    <br />
+  </main>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
